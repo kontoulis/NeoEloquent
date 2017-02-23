@@ -260,6 +260,10 @@ class CypherGrammar extends Grammar {
         return sprintf("MATCH (%s)", $labels);
     }
 
+    protected function whereRaw(Builder $query, $where)
+    {
+        return $where['sql'];
+    }
     
     /**
      * Compile a "where not in" clause.
