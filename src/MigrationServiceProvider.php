@@ -23,13 +23,18 @@ class MigrationServiceProvider extends ServiceProvider
 
     private $singletonMethod;
 
+    public function __construct($app)
+    {
+        parent::__construct($app);
+        $this->singletonMethod =version_compare(\Application::VERSION, '5.2', '>=') ? 'singleton' : '{$this->singletonMethod}';
+
+    }
     /**
      * {@inheritDoc}
      */
     public function boot()
     {
-        $method = 
-        $this->singletonMethod =version_compare(Application::VERSION, '5.2', '>=') ? 'singleton' : '{$this->singletonMethod}';
+
     }
 
     /**
