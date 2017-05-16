@@ -41,7 +41,7 @@
         <entry file="file://$PROJECT_DIR$/src/MigrationServiceProvider.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="368">
-              <caret line="28" column="127" lean-forward="false" selection-start-line="28" selection-start-column="127" selection-end-line="28" selection-end-column="127" />
+              <caret line="28" column="111" lean-forward="false" selection-start-line="28" selection-start-column="111" selection-end-line="28" selection-end-column="111" />
               <folding>
                 <element signature="e#39#87#0#PHP" expanded="true" />
               </folding>
@@ -436,12 +436,12 @@
       <workItem from="1490950179446" duration="629000" />
       <workItem from="1491208518735" duration="612000" />
       <workItem from="1491310754419" duration="757000" />
-      <workItem from="1494940753667" duration="1038000" />
+      <workItem from="1494940753667" duration="1128000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31429000" />
+    <option name="totallyTimeSpent" value="31519000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1164" extended-state="6" />
@@ -862,7 +862,7 @@
     <entry file="file://$PROJECT_DIR$/src/MigrationServiceProvider.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="368">
-          <caret line="28" column="127" lean-forward="false" selection-start-line="28" selection-start-column="127" selection-end-line="28" selection-end-column="127" />
+          <caret line="28" column="111" lean-forward="false" selection-start-line="28" selection-start-column="111" selection-end-line="28" selection-end-column="111" />
           <folding>
             <element signature="e#39#87#0#PHP" expanded="true" />
           </folding>
