@@ -4,6 +4,7 @@ namespace Vinelab\NeoEloquent;
 
 use Vinelab\NeoEloquent\Support\ServiceProvider;
 use Illuminate\Database\Migrations\Migrator;
+use Illuminate\Foundation\Application;
 use Vinelab\NeoEloquent\Migrations\MigrationModel;
 use Vinelab\NeoEloquent\Migrations\MigrationCreator;
 use Vinelab\NeoEloquent\Console\Migrations\MigrateCommand;
@@ -20,11 +21,15 @@ class MigrationServiceProvider extends ServiceProvider
      */
     protected $defer = true;
 
+    private $singletonMethod;
+
     /**
      * {@inheritDoc}
      */
     public function boot()
     {
+        $method = 
+        $this->singletonMethod =version_compare(Application::VERSION, '5.2', '>=') ? 'singleton' : '{$this->singletonMethod}';
     }
 
     /**
@@ -47,7 +52,7 @@ class MigrationServiceProvider extends ServiceProvider
      */
     protected function registerRepository()
     {
-        $this->app->bindShared('neoeloquent.migration.repository', function ($app) {
+        $this->app->{$this->singletonMethod}('neoeloquent.migration.repository', function ($app) {
             $model = new MigrationModel();
 
             $label = $app['config']['database.migrations_node'];
@@ -72,7 +77,7 @@ class MigrationServiceProvider extends ServiceProvider
         // The migrator is responsible for actually running and rollback the migration
         // files in the application. We'll pass in our database connection resolver
         // so the migrator can resolve any of these connections when it needs to.
-        $this->app->bindShared('neoeloquent.migrator', function ($app) {
+        $this->app->{$this->singletonMethod}('neoeloquent.migrator', function ($app) {
             $repository = $app['neoeloquent.migration.repository'];
 
             return new Migrator($repository, $app['db'], $app['files']);
@@ -116,7 +121,7 @@ class MigrationServiceProvider extends ServiceProvider
      */
     protected function registerMigrateCommand()
     {
-        $this->app->bindShared('command.neoeloquent.migrate', function ($app) {
+        $this->app->{$this->singletonMethod}('command.neoeloquent.migrate', function ($app) {
             $packagePath = $app['path.base'].'/vendor';
 
             return new MigrateCommand($app['neoeloquent.migrator'], $packagePath);
@@ -128,7 +133,7 @@ class MigrationServiceProvider extends ServiceProvider
      */
     protected function registerMigrateRollbackCommand()
     {
-        $this->app->bindShared('command.neoeloquent.migrate.rollback', function ($app) {
+        $this->app->{$this->singletonMethod}('command.neoeloquent.migrate.rollback', function ($app) {
             return new MigrateRollbackCommand($app['neoeloquent.migrator']);
         });
     }
@@ -138,7 +143,7 @@ class MigrationServiceProvider extends ServiceProvider
      */
     protected function registerMigrateResetCommand()
     {
-        $this->app->bindShared('command.neoeloquent.migrate.reset', function ($app) {
+        $this->app->{$this->singletonMethod}('command.neoeloquent.migrate.reset', function ($app) {
             return new MigrateResetCommand($app['neoeloquent.migrator']);
         });
     }
@@ -148,7 +153,7 @@ class MigrationServiceProvider extends ServiceProvider
      */
     protected function registerMigrateRefreshCommand()
     {
-        $this->app->bindShared('command.neoeloquent.migrate.refresh', function ($app) {
+        $this->app->{$this->singletonMethod}('command.neoeloquent.migrate.refresh', function ($app) {
             return new MigrateRefreshCommand();
         });
     }
@@ -158,11 +163,11 @@ class MigrationServiceProvider extends ServiceProvider
      */
     protected function registerMigrateMakeCommand()
     {
-        $this->app->bindShared('migration.neoeloquent.creator', function ($app) {
+        $this->app->{$this->singletonMethod}('migration.neoeloquent.creator', function ($app) {
             return new MigrationCreator($app['files']);
         });
 
-        $this->app->bindShared('command.neoeloquent.migrate.make', function ($app) {
+        $this->app->{$this->singletonMethod}('command.neoeloquent.migrate.make', function ($app) {
             // Once we have the migration creator registered, we will create the command
             // and inject the creator. The creator is responsible for the actual file
             // creation of the migrations, and may be extended by these developers.

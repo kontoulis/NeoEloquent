@@ -4,7 +4,7 @@
     <list default="true" id="50d60de1-3254-4fae-bec0-16483d22b68d" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/NeoEloquent.iml" afterPath="$PROJECT_DIR$/.idea/NeoEloquent.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Connection.php" afterPath="$PROJECT_DIR$/src/Connection.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/MigrationServiceProvider.php" afterPath="$PROJECT_DIR$/src/MigrationServiceProvider.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -22,19 +22,31 @@
       <file leaf-file-name="Builder.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Query/Builder.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="10206">
+            <state relative-caret-position="9072">
               <caret line="582" column="22" lean-forward="false" selection-start-line="582" selection-start-column="22" selection-end-line="582" selection-end-column="22" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="composer.json" pinned="false" current-in-tab="true">
+      <file leaf-file-name="composer.json" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/composer.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
-              <caret line="18" column="35" lean-forward="false" selection-start-line="18" selection-start-column="35" selection-end-line="18" selection-end-column="35" />
+            <state relative-caret-position="416">
+              <caret line="26" column="6" lean-forward="true" selection-start-line="26" selection-start-column="6" selection-end-line="26" selection-end-column="6" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MigrationServiceProvider.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/MigrationServiceProvider.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="496">
+              <caret line="31" column="48" lean-forward="true" selection-start-line="31" selection-start-column="48" selection-end-line="31" selection-end-column="48" />
+              <folding>
+                <element signature="e#39#87#0#PHP" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -42,7 +54,7 @@
       <file leaf-file-name="HasOne.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Eloquent/Relations/HasOne.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1926">
+            <state relative-caret-position="1712">
               <caret line="109" column="146" lean-forward="false" selection-start-line="109" selection-start-column="8" selection-end-line="109" selection-end-column="146" />
               <folding />
             </state>
@@ -52,7 +64,7 @@
       <file leaf-file-name="Model.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Eloquent/Model.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="47484">
+            <state relative-caret-position="42208">
               <caret line="2664" column="0" lean-forward="false" selection-start-line="2664" selection-start-column="0" selection-end-line="2664" selection-end-column="0" />
               <folding />
             </state>
@@ -62,7 +74,7 @@
       <file leaf-file-name="Builder.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Eloquent/Builder.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="10530">
+            <state relative-caret-position="9360">
               <caret line="599" column="35" lean-forward="false" selection-start-line="599" selection-start-column="35" selection-end-line="599" selection-end-column="35" />
               <folding />
             </state>
@@ -72,7 +84,7 @@
       <file leaf-file-name="Edge.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Eloquent/Edges/Edge.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3672">
+            <state relative-caret-position="3264">
               <caret line="210" column="11" lean-forward="false" selection-start-line="210" selection-start-column="11" selection-end-line="210" selection-end-column="11" />
               <folding />
             </state>
@@ -82,7 +94,7 @@
       <file leaf-file-name="Connection.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Connection.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="497">
+            <state relative-caret-position="6704">
               <caret line="436" column="95" lean-forward="false" selection-start-line="436" selection-start-column="95" selection-end-line="436" selection-end-column="95" />
               <folding />
             </state>
@@ -92,7 +104,7 @@
       <file leaf-file-name="BelongsTo.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Eloquent/Relations/BelongsTo.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1656">
+            <state relative-caret-position="1472">
               <caret line="93" column="0" lean-forward="false" selection-start-line="93" selection-start-column="0" selection-end-line="95" selection-end-column="57" />
               <folding />
             </state>
@@ -102,18 +114,8 @@
       <file leaf-file-name="HasMany.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Eloquent/Relations/HasMany.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1080">
+            <state relative-caret-position="960">
               <caret line="63" column="26" lean-forward="false" selection-start-line="63" selection-start-column="26" selection-end-line="63" selection-end-column="26" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CypherGrammar.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Query/Grammars/CypherGrammar.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="14238">
-              <caret line="792" column="53" lean-forward="false" selection-start-line="792" selection-start-column="48" selection-end-line="792" selection-end-column="53" />
               <folding />
             </state>
           </provider>
@@ -139,10 +141,18 @@
       <find>n where(</find>
       <find>whereRAw</find>
       <find>ClientBuilder::</find>
+      <find>bi</find>
+      <find>bindshare</find>
+      <find>bindshared</find>
+      <find>bindShared</find>
     </findStrings>
+    <replaceStrings>
+      <replace>{$this-&gt;singletonMethod}</replace>
+    </replaceStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/src/Query</dir>
       <dir>$PROJECT_DIR$/src</dir>
+      <dir>$PROJECT_DIR$</dir>
     </dirStrings>
   </component>
   <component name="Git.Settings">
@@ -166,6 +176,7 @@
         <option value="$PROJECT_DIR$/src/Eloquent/Model.php" />
         <option value="$PROJECT_DIR$/composer.json" />
         <option value="$PROJECT_DIR$/src/Connection.php" />
+        <option value="$PROJECT_DIR$/src/MigrationServiceProvider.php" />
       </list>
     </option>
   </component>
@@ -180,10 +191,8 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="65" />
-    <option name="y" value="24" />
-    <option name="width" value="1855" />
-    <option name="height" value="1176" />
+    <option name="width" value="1920" />
+    <option name="height" value="1164" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -200,6 +209,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -209,6 +219,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="NeoEloquent" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="NeoEloquent" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="NeoEloquent" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vendor" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -268,7 +292,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -278,6 +301,18 @@
     <property name="nodejs_interpreter_path" value="/usr/bin/node" />
     <property name="js.eslint.eslintPackage" value="" />
     <property name="js-jscs-nodeInterpreter" value="/usr/bin/node" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
   </component>
   <component name="RunManager">
     <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
@@ -369,34 +404,35 @@
       <workItem from="1490864454943" duration="12000" />
       <workItem from="1490950179446" duration="629000" />
       <workItem from="1491208518735" duration="612000" />
-      <workItem from="1491310754419" duration="205000" />
+      <workItem from="1491310754419" duration="757000" />
+      <workItem from="1494940753667" duration="338000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29839000" />
+    <option name="totallyTimeSpent" value="30729000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="65" y="24" width="1855" height="1176" extended-state="6" />
+    <frame x="0" y="0" width="1920" height="1164" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25067386" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25052083" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32970026" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32924527" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -410,16 +446,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Eloquent/Collection.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="720">
-          <caret line="41" column="13" lean-forward="false" selection-start-line="41" selection-start-column="13" selection-end-line="41" selection-end-column="13" />
-          <folding>
-            <element signature="e#48#84#0#PHP" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Query/Grammars/Grammar.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="5670">
@@ -440,7 +466,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="16938">
           <caret line="947" column="5" lean-forward="false" selection-start-line="940" selection-start-column="4" selection-end-line="947" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -448,7 +473,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -495,9 +519,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="720">
           <caret line="41" column="13" lean-forward="false" selection-start-line="41" selection-start-column="13" selection-end-line="41" selection-end-column="13" />
-          <folding>
-            <element signature="e#48#84#0#PHP" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -552,9 +573,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#48#84#0#PHP" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -698,9 +716,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="720">
           <caret line="41" column="13" lean-forward="false" selection-start-line="41" selection-start-column="13" selection-end-line="41" selection-end-column="13" />
-          <folding>
-            <element signature="e#48#84#0#PHP" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -716,7 +731,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="594">
           <caret line="33" column="11" lean-forward="false" selection-start-line="33" selection-start-column="11" selection-end-line="33" selection-end-column="11" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -724,7 +738,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="6084">
           <caret line="341" column="11" lean-forward="false" selection-start-line="341" selection-start-column="11" selection-end-line="341" selection-end-column="11" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -732,13 +745,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3366">
           <caret line="193" column="20" lean-forward="false" selection-start-line="193" selection-start-column="20" selection-end-line="193" selection-end-column="20" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Query/Grammars/CypherGrammar.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="14238">
+        <state relative-caret-position="12656">
           <caret line="792" column="53" lean-forward="false" selection-start-line="792" selection-start-column="48" selection-end-line="792" selection-end-column="53" />
           <folding />
         </state>
@@ -746,7 +758,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Eloquent/Edges/Edge.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3672">
+        <state relative-caret-position="3264">
           <caret line="210" column="11" lean-forward="false" selection-start-line="210" selection-start-column="11" selection-end-line="210" selection-end-column="11" />
           <folding />
         </state>
@@ -754,7 +766,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Eloquent/Relations/BelongsTo.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1656">
+        <state relative-caret-position="1472">
           <caret line="93" column="0" lean-forward="false" selection-start-line="93" selection-start-column="0" selection-end-line="95" selection-end-column="57" />
           <folding />
         </state>
@@ -762,7 +774,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Eloquent/Relations/HasOne.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1926">
+        <state relative-caret-position="1712">
           <caret line="109" column="146" lean-forward="false" selection-start-line="109" selection-start-column="8" selection-end-line="109" selection-end-column="146" />
           <folding />
         </state>
@@ -770,7 +782,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Eloquent/Model.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="47484">
+        <state relative-caret-position="42208">
           <caret line="2664" column="0" lean-forward="false" selection-start-line="2664" selection-start-column="0" selection-end-line="2664" selection-end-column="0" />
           <folding />
         </state>
@@ -778,7 +790,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Eloquent/Relations/HasMany.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1080">
+        <state relative-caret-position="960">
           <caret line="63" column="26" lean-forward="false" selection-start-line="63" selection-start-column="26" selection-end-line="63" selection-end-column="26" />
           <folding />
         </state>
@@ -786,7 +798,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Eloquent/Builder.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="10530">
+        <state relative-caret-position="9360">
           <caret line="599" column="35" lean-forward="false" selection-start-line="599" selection-start-column="35" selection-end-line="599" selection-end-column="35" />
           <folding />
         </state>
@@ -794,7 +806,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Query/Builder.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="10206">
+        <state relative-caret-position="9072">
           <caret line="582" column="22" lean-forward="false" selection-start-line="582" selection-start-column="22" selection-end-line="582" selection-end-column="22" />
           <folding />
         </state>
@@ -802,7 +814,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Connection.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="497">
+        <state relative-caret-position="6704">
           <caret line="436" column="95" lean-forward="false" selection-start-line="436" selection-start-column="95" selection-end-line="436" selection-end-column="95" />
           <folding />
         </state>
@@ -810,9 +822,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/composer.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="18" column="35" lean-forward="false" selection-start-line="18" selection-start-column="35" selection-end-line="18" selection-end-column="35" />
+        <state relative-caret-position="416">
+          <caret line="26" column="6" lean-forward="true" selection-start-line="26" selection-start-column="6" selection-end-line="26" selection-end-column="6" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MigrationServiceProvider.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="496">
+          <caret line="31" column="48" lean-forward="true" selection-start-line="31" selection-start-column="48" selection-end-line="31" selection-end-column="48" />
+          <folding>
+            <element signature="e#39#87#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
