@@ -4,7 +4,7 @@ namespace Vinelab\NeoEloquent;
 
 use Vinelab\NeoEloquent\Support\ServiceProvider;
 use Illuminate\Database\Migrations\Migrator;
-use Illuminate\Foundation\Application;
+
 use Vinelab\NeoEloquent\Migrations\MigrationModel;
 use Vinelab\NeoEloquent\Migrations\MigrationCreator;
 use Vinelab\NeoEloquent\Console\Migrations\MigrateCommand;
@@ -26,7 +26,7 @@ class MigrationServiceProvider extends ServiceProvider
     public function __construct($app)
     {
         parent::__construct($app);
-        $this->singletonMethod =version_compare(\Application::VERSION, '5.2', '>=') ? 'singleton' : 'bindShared';
+        $this->singletonMethod =version_compare(app()::VERSION, '5.2', '>=') ? 'singleton' : 'bindShared';
 
     }
     /**
