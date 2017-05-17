@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="50d60de1-3254-4fae-bec0-16483d22b68d" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Migrations/MigrationCreator.php" afterPath="$PROJECT_DIR$/src/Migrations/MigrationCreator.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -52,8 +52,8 @@
       <file leaf-file-name="MigrationCreator.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Migrations/MigrationCreator.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="672">
+              <caret line="42" column="5" lean-forward="false" selection-start-line="42" selection-start-column="5" selection-end-line="42" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -175,6 +175,7 @@
         <option value="$PROJECT_DIR$/composer.json" />
         <option value="$PROJECT_DIR$/src/Connection.php" />
         <option value="$PROJECT_DIR$/src/MigrationServiceProvider.php" />
+        <option value="$PROJECT_DIR$/src/Migrations/MigrationCreator.php" />
       </list>
     </option>
   </component>
@@ -455,12 +456,12 @@
       <workItem from="1491208518735" duration="612000" />
       <workItem from="1491310754419" duration="757000" />
       <workItem from="1494940753667" duration="2605000" />
-      <workItem from="1495015333154" duration="94000" />
+      <workItem from="1495015333154" duration="350000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33090000" />
+    <option name="totallyTimeSpent" value="33346000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1164" extended-state="6" />
@@ -880,8 +881,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Migrations/MigrationCreator.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="672">
+          <caret line="42" column="5" lean-forward="false" selection-start-line="42" selection-start-column="5" selection-end-line="42" selection-end-column="5" />
           <folding />
         </state>
       </provider>

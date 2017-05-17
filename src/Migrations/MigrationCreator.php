@@ -36,4 +36,9 @@ class MigrationCreator extends IlluminateMigrationCreator
     {
         return __DIR__.'/stubs';
     }
+
+    public function stubPath()
+    {
+        return __DIR__.'/stubs';
+    }
 }
