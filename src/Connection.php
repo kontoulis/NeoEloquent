@@ -373,7 +373,7 @@ class Connection implements ConnectionInterface
                 $this->getPassword($config)
             )
             ->setAutoFormatResponse(true)
-            ->setDefaultTimeout(30)
+            ->setDefaultTimeout(240)
             ->build();
     }
 
@@ -400,7 +400,7 @@ class Connection implements ConnectionInterface
         }
 
         return $clientBuilder->setAutoFormatResponse(true)
-            ->setDefaultTimeout(30)->build();
+            ->setDefaultTimeout(240)->build();
     }
 
     public function createHAClient()
@@ -434,7 +434,7 @@ class Connection implements ConnectionInterface
             }
         }
 
-        return $clientBuilder->enableHAMode()->setAutoFormatResponse(true)->setDefaultTimeout(30)->build();
+        return $clientBuilder->enableHAMode()->setAutoFormatResponse(true)->setDefaultTimeout(240)->build();
     }
 
     /**

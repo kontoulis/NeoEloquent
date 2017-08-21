@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="50d60de1-3254-4fae-bec0-16483d22b68d" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Migrations/MigrationCreator.php" afterPath="$PROJECT_DIR$/src/Migrations/MigrationCreator.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Migrations/stubs/create.stub" afterPath="$PROJECT_DIR$/src/Migrations/stubs/create.stub" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Migrations/stubs/update.stub" afterPath="$PROJECT_DIR$/src/Migrations/stubs/update.stub" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Connection.php" afterPath="$PROJECT_DIR$/src/Connection.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -42,7 +41,7 @@
       <file leaf-file-name="MigrationServiceProvider.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/MigrationServiceProvider.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="416">
+            <state relative-caret-position="336">
               <caret line="31" column="7" lean-forward="false" selection-start-line="31" selection-start-column="7" selection-end-line="31" selection-end-column="7" />
               <folding>
                 <element signature="e#39#87#0#PHP" expanded="true" />
@@ -51,11 +50,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MigrationCreator.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="MigrationCreator.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Migrations/MigrationCreator.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1408">
-              <caret line="88" column="0" lean-forward="true" selection-start-line="88" selection-start-column="0" selection-end-line="88" selection-end-column="0" />
+            <state relative-caret-position="800">
+              <caret line="50" column="79" lean-forward="false" selection-start-line="50" selection-start-column="79" selection-end-line="50" selection-end-column="79" />
               <folding />
             </state>
           </provider>
@@ -111,11 +110,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Connection.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Connection.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Connection.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="6704">
-              <caret line="436" column="95" lean-forward="false" selection-start-line="436" selection-start-column="95" selection-end-line="436" selection-end-column="95" />
+            <state relative-caret-position="326">
+              <caret line="375" column="36" lean-forward="true" selection-start-line="375" selection-start-column="36" selection-end-line="375" selection-end-column="36" />
               <folding />
             </state>
           </provider>
@@ -145,6 +144,7 @@
       <find>bindshare</find>
       <find>bindshared</find>
       <find>bindShared</find>
+      <find>30</find>
     </findStrings>
     <replaceStrings>
       <replace>{$this-&gt;singletonMethod}</replace>
@@ -175,11 +175,11 @@
         <option value="$PROJECT_DIR$/src/Eloquent/Relations/HasOne.php" />
         <option value="$PROJECT_DIR$/src/Eloquent/Model.php" />
         <option value="$PROJECT_DIR$/composer.json" />
-        <option value="$PROJECT_DIR$/src/Connection.php" />
         <option value="$PROJECT_DIR$/src/MigrationServiceProvider.php" />
         <option value="$PROJECT_DIR$/src/Migrations/stubs/create.stub" />
         <option value="$PROJECT_DIR$/src/Migrations/stubs/update.stub" />
         <option value="$PROJECT_DIR$/src/Migrations/MigrationCreator.php" />
+        <option value="$PROJECT_DIR$/src/Connection.php" />
       </list>
     </option>
   </component>
@@ -362,7 +362,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$USER_HOME$/turbado_orders/orders" />
     <property name="nodejs_interpreter_path" value="/usr/bin/node" />
     <property name="js.eslint.eslintPackage" value="" />
     <property name="js-jscs-nodeInterpreter" value="/usr/bin/node" />
@@ -482,12 +482,16 @@
       <workItem from="1491208518735" duration="612000" />
       <workItem from="1491310754419" duration="757000" />
       <workItem from="1494940753667" duration="2605000" />
-      <workItem from="1495015333154" duration="1822000" />
+      <workItem from="1495015333154" duration="2491000" />
+      <workItem from="1495434618748" duration="32000" />
+      <workItem from="1495441351236" duration="633000" />
+      <workItem from="1495782052590" duration="13000" />
+      <workItem from="1503306123584" duration="36000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34818000" />
+    <option name="totallyTimeSpent" value="36201000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1164" extended-state="6" />
@@ -550,7 +554,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="28116">
           <caret line="1588" column="48" lean-forward="false" selection-start-line="1588" selection-start-column="48" selection-end-line="1588" selection-end-column="48" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -603,7 +606,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="28116">
           <caret line="1588" column="48" lean-forward="true" selection-start-line="1588" selection-start-column="48" selection-end-line="1588" selection-end-column="48" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -641,7 +643,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -686,7 +687,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="679">
           <caret line="2304" column="5" lean-forward="false" selection-start-line="2304" selection-start-column="5" selection-end-line="2304" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -709,7 +709,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -812,7 +811,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1712">
           <caret line="109" column="146" lean-forward="false" selection-start-line="109" selection-start-column="8" selection-end-line="109" selection-end-column="146" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -820,7 +818,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="42208">
           <caret line="2664" column="0" lean-forward="false" selection-start-line="2664" selection-start-column="0" selection-end-line="2664" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -828,7 +825,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="960">
           <caret line="63" column="26" lean-forward="false" selection-start-line="63" selection-start-column="26" selection-end-line="63" selection-end-column="26" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -844,14 +840,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="9072">
           <caret line="582" column="22" lean-forward="false" selection-start-line="582" selection-start-column="22" selection-end-line="582" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Connection.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6704">
-          <caret line="436" column="95" lean-forward="false" selection-start-line="436" selection-start-column="95" selection-end-line="436" selection-end-column="95" />
           <folding />
         </state>
       </provider>
@@ -882,7 +870,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/MigrationServiceProvider.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="416">
+        <state relative-caret-position="336">
           <caret line="31" column="7" lean-forward="false" selection-start-line="31" selection-start-column="7" selection-end-line="31" selection-end-column="7" />
           <folding>
             <element signature="e#39#87#0#PHP" expanded="true" />
@@ -908,8 +896,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Migrations/MigrationCreator.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1408">
-          <caret line="88" column="0" lean-forward="true" selection-start-line="88" selection-start-column="0" selection-end-line="88" selection-end-column="0" />
+        <state relative-caret-position="800">
+          <caret line="50" column="79" lean-forward="false" selection-start-line="50" selection-start-column="79" selection-end-line="50" selection-end-column="79" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Connection.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="326">
+          <caret line="375" column="36" lean-forward="true" selection-start-line="375" selection-start-column="36" selection-end-line="375" selection-end-column="36" />
           <folding />
         </state>
       </provider>
